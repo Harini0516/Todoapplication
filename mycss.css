@@ -1,0 +1,178 @@
+
+header{
+    background-color:grey;
+    height:100px;
+    text-align:center;
+    padding-top: 40px;
+    box-sizing: border-box;
+    color:white;
+    font-size: large;
+}
+header:hover{
+    background-color:black;
+}
+.container{
+    width:50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    text-align: center;
+    margin-top: 30px;
+    background-color: cornsilk;
+    height:500px;
+    border:1px solid brown;
+    overflow-y: auto;
+
+}
+.container h1{
+    padding:20px;
+    font-size: medium;
+    border-bottom:1px solid brown;
+}
+.btn{
+    background-color:#E9573F;
+    color:white;
+    width:25%;
+    margin:auto;
+    height:30px;
+    text-align: center;
+    box-shadow: 0px 0px 0px transparent;
+    border: 0px solid transparent;
+    text-shadow: 0px 0px 0px transparent;
+    
+}
+.btn {
+    font-size: small;
+    padding: 6px 1px;
+}
+.btn :hover{
+    background-color: gray;
+
+    box-shadow: 0px 0px 0px transparent;
+
+    border: 0px solid transparent;
+
+    text-shadow: 0px 0px 0px transparent;
+
+}
+.btn1{
+   
+        background-color:red;
+        color:white;
+        width:25%;
+        margin:auto;
+        height:30px;
+        text-align: center;
+        box-shadow: 0px 0px 0px transparent;
+        border: 0px solid transparent;
+        text-shadow: 0px 0px 0px transparent;
+        font-size: small;
+    padding: 6px 1px;
+}
+
+#content {
+   margin: 5px;
+   margin-top: 10px;
+   background-color:white;
+   height: 370px;
+   display: none;
+  
+
+
+}
+#content ul{
+    margin-top: 50px;
+    padding-left: 0;
+}
+#content ul li {
+    list-style:none;
+    border:2px solid black;
+    width:80%;
+    opacity:0;
+    transition: opacity 0.5s ease-in-out;
+    height:40px;
+    margin:5px auto;
+    text-align:left;
+
+
+}
+#content ul li label{
+    margin:0 auto;
+    vertical-align: middle;
+    height: 100%;
+    line-height: 40px;
+    font-size: 18px;
+    
+}
+#content ul li #check{
+    float:left;
+    width: 30px;
+    height:30px;
+    margin:5px;
+    -webkit-appearance: none;
+    border:2px solid black;
+    position: relative;
+    outline:0;
+}
+#content ul li #check:checked:after{
+    content:'\2714';
+    font-size: 20px;
+    position: absolute;
+    top:0px;
+    left:7px;
+    color:black;
+
+
+}
+#content ul li input[type="checkbox"]:checked + label{
+    text-decoration: none;
+    color:rgba(0,0,0,.3);
+}
+#content .controls{
+    width:60%;
+    margin:auto;
+}
+#content .controls #input{
+    width:100%;
+    height:30px;
+    font-size: 20px;
+    padding-left: 5px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    border:2px solid black;
+    border-radius: 5px;
+}
+#content .controls #input:focus{
+    outline: 0;
+}
+#content .controls button{
+    width:100%;
+    background:white ;
+    border:none;
+    height:30px;
+    margin-top:2px;
+    cursor:pointer;
+    color:white;
+}
+#content .controls button:focus{
+    outline: 0;
+}
+#content .controls button:hover{
+    transform:scale(1.05);
+}
+#content .controls #add{
+    background-color: green;
+    border-radius: 10px;
+}
+#content .controls #remove{
+    background-color:red;
+    border-radius: 10px;
+}
+
+#content .mycheck{
+    opacity:1;
+    border-radius: 10px;
+}
+.visual{
+    opacity:1 !important;
+    border-radius:10px;
+}
